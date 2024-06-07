@@ -80,3 +80,54 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+
+/* TERMINO PUNTO 1*/
+
+/* PUNTO 2*/
+
+.desafio_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.desafio_2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.desafio_2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.separacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.bt-verificar{
+    margin-top: 1rem;
+    background-color: rgb(229, 255, 0);
+}
+
+.bt-verificar:hover{
+    background-color: rgba(229, 255, 0,0.3);
+}
+
+.res_2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: large;
+}
+
+
+/* TERMINO PUNTO 2*/

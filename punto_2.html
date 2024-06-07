@@ -15,11 +15,42 @@
     
     <main>
         <h1>Desafio Condiciones JS - Punto 2</h1>
+        <section class="desafio_2">
+         <div>
+            <img src="./assets/img/stickers_1.jpg" alt="Stickers 1">
+            <input id="s1" type="number">
+         </div>
+         <div>
+            <img src="./assets/img/stickers_2.png" alt="Stickers 2">
+            <input id="s2" type="number">
+         </div> 
+         <div>
+            <img src="./assets/img/stickers_3.jpg" alt="Stickers 3">
+            <input id="s3" type="number">
+         </div>    
+        </section>
 
+        <p id="res" class="res_2"></p>
+        <div class="separacion">
+        <button id="bt-ver" class="bt-verificar" onclick="
+            let s1=document.querySelector('#s1').value;
+            let s2=document.querySelector('#s2').value;
+            let s3=document.querySelector('#s3').value;
+            let cuenta = Number(s1)+Number(s2)+Number(s3);
+            let res=document.querySelector('#res');
+            if(cuenta>10){
+                res.innerHTML='Llevas demasiados stickers';
+            }
+            else{
+                res.innerHTML=`Llevas: ${cuenta} stickers`;
+            }
+            
+            ">Verificar</button>
 
         <div>
             <a href="./index.html"><button>Volver</button></a>
         </div>
+         </div>
     </main>
 
 </body>
