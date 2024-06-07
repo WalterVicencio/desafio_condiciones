@@ -168,5 +168,9 @@ button:hover{
     background-color:rgb(0, 255, 76,0.3);
 }
 
+button:active{
+    border: 2px solid red;
+}
+
 
 /* TERMINO PUNTO 3*/
