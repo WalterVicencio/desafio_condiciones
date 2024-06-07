@@ -131,3 +131,42 @@ button:hover{
 
 
 /* TERMINO PUNTO 2*/
+
+
+/* PUNTO 3*/
+.desafio_3{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.password{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.desafio_3 select{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.desafio_3 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: large;
+}
+
+.bt-ingresar{
+    background-color:rgb(0, 255, 76);
+    padding: 10px;
+    margin-top: 1rem;
+}
+.bt-ingresar:hover{
+    background-color:rgb(0, 255, 76,0.3);
+}
+
+
+/* TERMINO PUNTO 3*/

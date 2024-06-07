@@ -15,8 +15,63 @@
     
     <main>
         <h1>Desafio Condiciones JS - Punto 3</h1>
-
-
+        <div class="desafio_3">
+            <h2>Ingresa el Password</h2>
+            <div class="password">
+            <select id="p1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <select id="p2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <select id="p3">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            </div>
+            <button class="bt-ingresar" onclick="
+                let p1=document.querySelector('#p1').value;
+                let p2=document.querySelector('#p2').value;
+                let p3=document.querySelector('#p3').value;
+                let combinacion=p1+p2+p3;
+                let texto_pass=document.querySelector('#res-ingresar');
+                if(combinacion==='911'){
+                    texto_pass.innerHTML=`password 1 correcto`;
+                } 
+                else if(combinacion==='714'){
+                    texto_pass.innerHTML=`password 2 correcto`;
+                } 
+                else{
+                    texto_pass.innerHTML=`password incorrecto`;
+                }
+                
+                
+            ">Ingresar</button>
+                <p id="res-ingresar"></p>
+        </div>
         <div>
             <a href="./index.html"><button>Volver</button></a>
         </div>
